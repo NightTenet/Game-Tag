@@ -86,7 +86,6 @@ public class Functionality
                     return false;
             }
         }
-
         return true;
     }
 

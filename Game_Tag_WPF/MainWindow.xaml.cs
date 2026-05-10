@@ -78,7 +78,6 @@ public partial class MainWindow : Window
     private void Tile_Click(object sender, RoutedEventArgs e)
     {
         Button clickedBtn = (Button)sender;
-
         int clickedBtnX = Grid.GetRow(clickedBtn);
         int clickedBtnY = Grid.GetColumn(clickedBtn);
 
